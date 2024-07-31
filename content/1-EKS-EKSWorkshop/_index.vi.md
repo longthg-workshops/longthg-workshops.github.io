@@ -13,3 +13,4 @@ Dịch giả chính: [github.com/vanhoangkha](https://github.com/vanhoangkha)
 
 ### Các bài workshop hiện được mình lưu trữ và chạy:
  - [Workshop 1](https://longthg-workshops.github.io/EKS-Workshop-1)
+ - [Workshop 2](https://longthg-workshops.github.io/EKS-Workshop-2)
