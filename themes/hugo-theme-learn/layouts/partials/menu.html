@@ -1,16 +1,8 @@
-<nav id="sidebar" class="{{if $.Site.Params.showVisitedLinks }}showVisitedLinks{{end}}">
+<nav id="sidebar" class="{{if $.Site.Params.showVisitedLinks }}showVisitedLinks{{end}}" style="box-shadow: 1px 0px 9px 1px rgb(0, 0, 0);">
 
 {{ $currentNode := . }}
 {{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
-  <div id="header-wrapper">
-    <div id="header">
-      {{ partial "logo.html" . }}
-    </div>
-    {{if not .Site.Params.disableSearch}}
-        {{ partial "search.html" . }}
-    {{end}}
-  </div>
-
+  
     <div class="highlightable">
     <ul class="topics">
 

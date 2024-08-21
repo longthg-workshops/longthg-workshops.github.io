@@ -69,19 +69,19 @@ a:hover {
 #sidebar {
 	background-color: var(--MENU-SECTIONS-BG-color);
 }
-#sidebar #header-wrapper {
+#header-wrapper {
     background: var(--MENU-HEADER-BG-color);
     color: var(--MENU-SEARCH-BOX-color);
-    border-color: var(--MENU-HEADER-BORDER-color);
+    border-bottom: 4px solid var(--MENU-HEADER-BORDER-color);
 }
-#sidebar .searchbox {
+.searchbox {
 	border-color: var(--MENU-SEARCH-BOX-color);
     background: var(--MENU-SEARCH-BG-color);
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
     background: var(--MENU-SECTIONS-ACTIVE-BG-color);
 }
-#sidebar .searchbox * {
+#topbar .searchbox * {
     color: var(--MENU-SEARCH-BOX-ICONS-color);
 }
 

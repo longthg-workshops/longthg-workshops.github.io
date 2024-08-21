@@ -38,18 +38,6 @@
     font-weight: 500;
     src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
 }
-@font-face {
-    font-family: 'Amazon Ember';
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/AmazonEmber_W_Rg.eot") format("embedded-opentype"), url("../fonts/AmazonEmber_W_Rg.woff") format("woff"), url("../fonts/AmazonEmber_W_Rg.woff2") format("woff2"), url("../fonts/AmazonEmber_Rg.ttf") format("truetype");
-}
-@font-face {
-    font-family: 'Amazon Ember';
-    font-style: italic;
-    font-weight: 300;
-    src: url("../fonts/AmazonEmber_W_RgIt.eot") format("embedded-opentype"), url("../fonts/AmazonEmber_W_RgIt.woff") format("woff"), url("../fonts/AmazonEmber_W_RgIt.woff2") format("woff2"), url("../fonts/AmazonEmber_RgIt.ttf") format("truetype");
-}
 body {
     background: #fff;
     color: #777;
@@ -115,6 +103,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #header-wrapper {
     background: #8451a1;
+    background-size: 100% 100%;
     color: #fff;
     text-align: center;
     border-bottom: 4px solid #9c6fb6;
@@ -132,30 +121,34 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 .searchbox {
     margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    border: 1px solid #915eae;
-    background: #764890;
+    /* border: 1px solid #915eae;
+    background: #764890; */
     border-radius: 4px;
+    width: 90%;
+    min-height: 1.5rem;
 }
 .searchbox label {
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
     position: absolute;
     left: 10px;
     top: 3px;
 }
 .searchbox span {
-    color: rgba(255, 255, 255, 0.6);
+    /* color: rgba(255, 255, 255, 0.6); */
     position: absolute;
     right: 10px;
     top: 3px;
     cursor: pointer;
 }
-.searchbox span:hover {
+/* .searchbox span:hover {
     color: rgba(255, 255, 255, 0.9);
-}
+} */
 .searchbox input {
     display: inline-block;
-    color: #fff;
+    /* color: #fff; */
     width: 100%;
     height: 30px;
     background: transparent;
@@ -185,16 +178,16 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #322A38;
+    /* background-color: #322A38; */
     position: fixed;
-    top: 0;
+    top: 146.2px;
     width: 300px;
     bottom: 0;
     left: 0;
     font-weight: 400;
     font-size: 15px;
 }
-#sidebar a {
+/* #sidebar a {
     color: #ccc;
 }
 #sidebar a:hover {
@@ -202,10 +195,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar a.subtitle {
     color: rgba(204, 204, 204, 0.6);
-}
-#sidebar hr {
+} */
+/* #sidebar hr {
     border-bottom: 1px solid #2a232f;
-}
+} */
 #sidebar a.padding {
     padding: 0 1rem;
 }
@@ -222,13 +215,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     padding-right: 1rem;
 }
 #sidebar h5 i {
-    color: rgba(204, 204, 204, 0.6);
+    /* color: rgba(204, 204, 204, 0.6); */
     position: absolute;
     right: 0.6rem;
     top: 0.7rem;
     font-size: 80%;
 }
-#sidebar h5.parent a {
+/* #sidebar h5.parent a {
     background: #201b24;
     color: #d9d9d9 !important;
 }
@@ -238,7 +231,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #sidebar h5.active i {
     color: #777 !important;
-}
+} */
 #sidebar h5 + ul.topics {
     display: none;
     margin-top: 0;
@@ -252,7 +245,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin: 0;
 }
 #sidebar ul.searched a {
-    color: #999999;
+    /* color: #999999; */
 }
 #sidebar ul.searched .search-match a {
     color: #e6e6e6;
@@ -359,7 +352,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border: 1px solid #ccc;
 }
 #body .padding {
-    padding: 3rem 6rem;
+    padding: 3rem 4rem;
 }
 @media only all and (max-width: 59.938em) {
     #body .padding {
@@ -396,6 +389,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
 }
 #body .nav > i {
+    top: 154.8px;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -1000,11 +994,16 @@ td {
     background: #34495E;
 }
 #top-bar {
+    top: 15px;
+    right: 9px;
+    margin: auto;
     background: #F6F6F6;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;
-    min-height: 3rem;
+    width: 95%;
+    position: relative;
+    min-height: 2rem;
 }
 #top-github-link {
     position: relative;
@@ -1012,19 +1011,18 @@ td {
     float: right;
     display: block;
 }
-#body #breadcrumbs {
+#top-bar #breadcrumbs {
     height: auto;
-    margin-bottom: 0;
+    margin-top: 0.25rem;
     padding-left: 0;
     line-height: 1.4;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 70%;
+    text-overflow: hidden;
     display: inline-block;
     float: left;
 }
-#body #breadcrumbs span {
+#top-bar #breadcrumbs span {
     padding: 0 0.1rem;
 }
 @media only all and (max-width: 59.938em) {
