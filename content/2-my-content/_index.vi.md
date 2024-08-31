@@ -8,4 +8,4 @@ pre : " <b> 2. </b> "
 
 Trang này sẽ đăng một số bài nhận định riêng về các workshop EKS khác:
 
-[Nội dung và bình luận lấy ra từ quá trình làm](https://longthg-workshops.github.io/outtakes-columbia/)
+1. [Nội dung và bình luận lấy ra từ quá trình làm](https://longthg-workshops.github.io/outtakes-columbia/)
