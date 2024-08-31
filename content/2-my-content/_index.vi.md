@@ -1,9 +1,9 @@
 ---
 title : "Một số nội dung của riêng tôi"
 date :  "`r Sys.Date()`" 
-weight : 1 
+weight : 2 
 chapter : false
-pre : " <b> 1. </b> "
+pre : " <b> 2. </b> "
 ---
 
 Trang này sẽ đăng một số bài nhận định riêng về các workshop EKS khác:
