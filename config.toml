@@ -42,7 +42,7 @@ languageName = "Tiếng Việt"
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-windows'></i>Trang chủ Blog"
 identifier = "GH Vi"
-url = "https://github.com/LongKira-Obsidian24"
+url = "/vi"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
